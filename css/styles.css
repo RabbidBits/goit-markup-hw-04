@@ -134,9 +134,13 @@ img {
 /* ========== HERO ========== */
 
 .hero-section {
-    background-color: #2E2F42;
     padding-top: 188px;
     padding-bottom: 188px;
+
+    background-color: #2E2F42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-background-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero-title {
@@ -211,6 +215,16 @@ img {
 .benefits-text {
     line-height: 150%;
     letter-spacing: 0.02em;
+}
+
+.benefits-icons-container {
+    min-width: 264px;
+    height: 112px;
+    margin-bottom: 8px;
+    padding: 24px 100px;
+    background-color: #F4F4FD;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
 }
 
 /* ========== TEAM ========== */
