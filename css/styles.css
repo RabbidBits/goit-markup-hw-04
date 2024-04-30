@@ -3,7 +3,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
 }
 
 ul, ol {
@@ -153,7 +153,7 @@ img {
     line-height: 107%;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #ffffff;
+    color: #FFFFFF;
 }
 
 .hero-btn {
@@ -168,7 +168,7 @@ img {
     font-weight: 500;
     line-height: 150%;
     letter-spacing: 0.04em;
-    color: #ffffff;
+    color: #FFFFFF;
     background-color: #4D5AE5;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     border: 0 transparent;
@@ -335,6 +335,11 @@ img {
     padding-bottom: 100px;
 }
 
+.footer-container {
+    display: flex;
+    gap: 120px;
+}
+
 .logo-footer {
     display: inline-block;
     margin-bottom: 16px;
@@ -350,5 +355,32 @@ img {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+}
+
+.footer-socials-title {
+    margin-bottom: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.footer-socials-list {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-socials-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50px;
+}
+
+.footer-socials-item:hover {
+    background-color: #31D0AA; 
 }
 
