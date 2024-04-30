@@ -218,10 +218,12 @@ img {
 }
 
 .benefits-icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     min-width: 264px;
     height: 112px;
     margin-bottom: 8px;
-    padding: 24px 100px;
     background-color: #F4F4FD;
     border: 1px solid #8E8F99;
     border-radius: 4px;
@@ -264,9 +266,30 @@ img {
 }
 
 .team-position-title {
+    margin-bottom: 8px;
     line-height: 150%;
     letter-spacing: 0.02em;
     text-align: center;
+}
+
+.team-socials-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.team-socials-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50px;
+}
+
+.team-socials-item:hover {
+    background-color: #404BBF;
 }
 
 /* ========== PORTFOLIO ========== */
