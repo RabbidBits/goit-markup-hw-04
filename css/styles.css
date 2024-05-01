@@ -163,9 +163,8 @@ img {
 .hero-section {
     padding-top: 188px;
     padding-bottom: 188px;
-    /* ???? */
     max-width: 1440px;
-    /* ???? */
+    margin: 0 auto;
 
     background-color: #2E2F42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-background-img.jpg);
@@ -480,7 +479,7 @@ img {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-socials-item:hover .footer-socials-link,
-.footer-socials-item:focus .footer-socials-link {
+.footer-socials-link:hover,
+.footer-socials-link:focus {
     background-color: #31D0AA;
 }
