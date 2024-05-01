@@ -105,6 +105,10 @@ img {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #2E2F42;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-menu-item:hover,
@@ -124,6 +128,10 @@ img {
 .nav-address-item {
     line-height: 150%;
     letter-spacing: 0.02em;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-address-item:hover,
@@ -173,6 +181,10 @@ img {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     border: 0 transparent;
     border-radius: 4px;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover,
@@ -284,8 +296,13 @@ img {
     align-items: center;
     width: 40px;
     height: 40px;
+
     background-color: #4D5AE5;
     border-radius: 50px;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-socials-item:hover {
@@ -376,8 +393,13 @@ img {
     align-items: center;
     width: 40px;
     height: 40px;
+
     background-color: #4D5AE5;
     border-radius: 50px;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-socials-item:hover {
