@@ -361,8 +361,6 @@ img {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-
-
 .portfolio-text-container {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
@@ -387,8 +385,6 @@ img {
 .portfolio-overlay-container {
     position: relative;
     overflow: hidden;
-    width: 360px;
-    height: 300px;
 }
 
 .portfolio-overlay-text {
