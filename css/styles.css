@@ -116,6 +116,22 @@ img {
     color: #404BBF;
 }
 
+.active {
+    position: relative;
+    color: #404BBF;
+}
+
+.active::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #404BBF;
+}
+
 .nav-address {
     font-style: normal;
 }
@@ -309,6 +325,10 @@ img {
     background-color: #404BBF;
 }
 
+.socials-icon {
+    fill: #F4F4FD;
+}
+
 /* ========== PORTFOLIO ========== */
 
 .portfolio-list {
@@ -324,7 +344,7 @@ img {
 }
 
 .portfolio-list-item:hover .portfolio-item-overlay {
-    transform: translateX(0);
+    transform: translateY(0);
 }
 
 .portfolio-text-container {
@@ -357,7 +377,7 @@ img {
 
 .portfolio-item-overlay {
     position: absolute;
-    transform: translateX(-100%);
+    transform: translateY(100%);
     top: 0;
     left: 0;
     width: 100%;
